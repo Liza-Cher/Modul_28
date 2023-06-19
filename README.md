@@ -26,7 +26,7 @@ base_data.py - содержит базовые классы, процедуры,
 
 settings.py - содержит регистрационные данные для позитивных тестов авторизации;
 
-test_SF_RT_passport - содержит набор автотестов, нумерация соответствует номеру тест-кейса
+test_passport.py - содержит набор автотестов, нумерация соответствует номеру тест-кейса
 
 запуск автотестов (драйвер в одной папке с тест-скриптом)
-python -m pytest -v --driver Chrome --driver-path chromedriver.exe test_SF_RT_passport.py
+python -m pytest -v --driver Chrome --driver-path chromedriver.exe test_passport.py
